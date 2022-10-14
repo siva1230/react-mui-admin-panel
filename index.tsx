@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import SideBar from './sidebar';
 
 import App from './App';
 
@@ -10,6 +9,6 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <SideBar />
+    <App />
   </StrictMode>
 );

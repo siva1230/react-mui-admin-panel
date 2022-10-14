@@ -151,7 +151,6 @@ export default function SideBar() {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-
       <Drawer variant="permanent" open={open}>
         <DrawerHeader>
           <Typography variant="h6" style={{ marginRight: '83px' }}>
