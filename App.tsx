@@ -181,7 +181,7 @@ export default function App() {
           <Typography variant="h6" style={{ marginRight: '83px' }}>
             Sidebar
           </Typography>
-          <IconButton onClick={handleDrawerClose}>
+          <IconButton onClick={open ? handleDrawerClose : handleDrawerOpen}>
             {theme.direction === 'rtl' ? (
               <ChevronRightIcon />
             ) : (
